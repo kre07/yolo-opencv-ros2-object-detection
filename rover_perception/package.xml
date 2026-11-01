@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rover_perception</name>
+  <version>0.1.0</version>
+  <description>ROS 2 YOLO/OpenCV rover perception pipeline.</description>
+
+  <maintainer email="kritagya2005@gmail.com">Kritagya Sharma</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>vision_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
